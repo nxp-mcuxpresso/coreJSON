@@ -1,0 +1,75 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2025-06-17T09:28:58Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.20"
+  },
+  "name": "corejson-v25.06.00",
+  "dataLicense": "CC0-1.0",
+  "hasExtractedLicensingInfos": [
+    {
+      "licenseId": "LicenseRef-088c9eed-4b1f-4dc9-9fda-3fa186b6c865",
+      "extractedText": "NONE",
+      "name": "FreeRTOS Modified GPL License"
+    },
+    {
+      "licenseId": "LicenseRef-8fb456cc-8c55-4120-8676-8e3baa90c415",
+      "extractedText": "NONE",
+      "name": "Alternative Commercial License Available"
+    }
+  ],
+  "documentNamespace": "https://nxp.com/spdx/b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
+      "name": "corejson",
+      "versionInfo": "v25.06.00",
+      "licenseConcluded": "(MIT)",
+      "licenseDeclared": "(MIT)",
+      "downloadLocation": "https://github.com/nxp-mcuxpresso/corejson",
+      "originator": "Organization: NXP",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-package-2ed22622-1d69-4c33-8abd-15b069521b1b",
+      "name": "FreeRTOS core",
+      "versionInfo": "V3.2.0",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "(LicenseRef-088c9eed-4b1f-4dc9-9fda-3fa186b6c865 AND LicenseRef-8fb456cc-8c55-4120-8676-8e3baa90c415)",
+      "downloadLocation": "NOASSERTION",
+      "originator": "Organization: freertos",
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/FreeRTOS/coreJSON@v3.2.0",
+          "referenceType": "purl"
+        },
+        {
+          "referenceCategory": "OTHER",
+          "referenceLocator": "6dcbfdbf-b9bc-4d6f-8152-9a2efdb5ad04",
+          "referenceType": "BlackDuck-ComponentOrigin"
+        }
+      ],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3"
+    },
+    {
+      "spdxElementId": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
+      "relationshipType": "DYNAMIC_LINK",
+      "relatedSpdxElement": "SPDXRef-package-2ed22622-1d69-4c33-8abd-15b069521b1b"
+    }
+  ]
+}
