@@ -2,13 +2,13 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-06-17T09:28:58Z",
+    "created": "2025-09-01T13:04:40Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.20"
   },
-  "name": "corejson-v25.06.00",
+  "name": "corejson-v25.09.00",
   "dataLicense": "CC0-1.0",
   "hasExtractedLicensingInfos": [
     {
@@ -22,12 +22,12 @@
       "name": "Alternative Commercial License Available"
     }
   ],
-  "documentNamespace": "https://nxp.com/spdx/b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
+  "documentNamespace": "https://nxp.com/spdx/7223b46b-e5ee-4799-b97c-e5d1dd769456",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
+      "SPDXID": "SPDXRef-package-7223b46b-e5ee-4799-b97c-e5d1dd769456",
       "name": "corejson",
-      "versionInfo": "v25.06.00",
+      "versionInfo": "v25.09.00",
       "licenseConcluded": "(MIT)",
       "licenseDeclared": "(MIT)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/corejson",
@@ -37,8 +37,8 @@
       "filesAnalyzed": false
     },
     {
-      "SPDXID": "SPDXRef-package-2ed22622-1d69-4c33-8abd-15b069521b1b",
-      "name": "FreeRTOS core",
+      "SPDXID": "SPDXRef-package-37ec9343-9ce7-4237-afe6-4e718091b580",
+      "name": "FreeRTOS/coreJSON",
       "versionInfo": "V3.2.0",
       "licenseConcluded": "MIT",
       "licenseDeclared": "(LicenseRef-088c9eed-4b1f-4dc9-9fda-3fa186b6c865 AND LicenseRef-8fb456cc-8c55-4120-8676-8e3baa90c415)",
@@ -64,12 +64,12 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3"
+      "relatedSpdxElement": "SPDXRef-package-7223b46b-e5ee-4799-b97c-e5d1dd769456"
     },
     {
-      "spdxElementId": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
+      "spdxElementId": "SPDXRef-package-7223b46b-e5ee-4799-b97c-e5d1dd769456",
       "relationshipType": "DYNAMIC_LINK",
-      "relatedSpdxElement": "SPDXRef-package-2ed22622-1d69-4c33-8abd-15b069521b1b"
+      "relatedSpdxElement": "SPDXRef-package-37ec9343-9ce7-4237-afe6-4e718091b580"
     }
   ]
 }
