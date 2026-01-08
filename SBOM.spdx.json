@@ -2,32 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-06-17T09:28:58Z",
+    "created": "2026-01-08T03:54:33Z",
     "creators": [
       "Organization: NXP"
     ],
-    "licenseListVersion": "3.20"
+    "licenseListVersion": "3.26"
   },
-  "name": "corejson-v25.06.00",
+  "name": "corejson-v26.03.00-pvw1",
   "dataLicense": "CC0-1.0",
-  "hasExtractedLicensingInfos": [
-    {
-      "licenseId": "LicenseRef-088c9eed-4b1f-4dc9-9fda-3fa186b6c865",
-      "extractedText": "NONE",
-      "name": "FreeRTOS Modified GPL License"
-    },
-    {
-      "licenseId": "LicenseRef-8fb456cc-8c55-4120-8676-8e3baa90c415",
-      "extractedText": "NONE",
-      "name": "Alternative Commercial License Available"
-    }
-  ],
-  "documentNamespace": "https://nxp.com/spdx/b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
+  "documentNamespace": "https://nxp.com/spdx/b12c05a6-b41e-4bb0-9298-2610b604eb5e",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
+      "SPDXID": "SPDXRef-package-b12c05a6-b41e-4bb0-9298-2610b604eb5e",
       "name": "corejson",
-      "versionInfo": "v25.06.00",
+      "versionInfo": "v26.03.00-pvw1",
       "licenseConcluded": "(MIT)",
       "licenseDeclared": "(MIT)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/corejson",
@@ -37,24 +25,24 @@
       "filesAnalyzed": false
     },
     {
-      "SPDXID": "SPDXRef-package-2ed22622-1d69-4c33-8abd-15b069521b1b",
-      "name": "FreeRTOS core",
-      "versionInfo": "V3.2.0",
+      "SPDXID": "SPDXRef-package-c900501a-fbf6-4e20-aa24-11477be40521",
+      "name": "FreeRTOS/coreJSON",
+      "versionInfo": "v3.3.0",
       "licenseConcluded": "MIT",
-      "licenseDeclared": "(LicenseRef-088c9eed-4b1f-4dc9-9fda-3fa186b6c865 AND LicenseRef-8fb456cc-8c55-4120-8676-8e3baa90c415)",
+      "licenseDeclared": "MIT",
       "downloadLocation": "NOASSERTION",
       "originator": "Organization: freertos",
       "supplier": "NOASSERTION",
       "externalRefs": [
         {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:github/FreeRTOS/coreJSON@v3.2.0",
-          "referenceType": "purl"
+          "referenceCategory": "OTHER",
+          "referenceLocator": "b7462c68-394c-47ed-9091-20bef6119ba7",
+          "referenceType": "BlackDuck-ComponentOrigin"
         },
         {
-          "referenceCategory": "OTHER",
-          "referenceLocator": "6dcbfdbf-b9bc-4d6f-8152-9a2efdb5ad04",
-          "referenceType": "BlackDuck-ComponentOrigin"
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:github/FreeRTOS/coreJSON@v3.3.0",
+          "referenceType": "purl"
         }
       ],
       "filesAnalyzed": false
@@ -64,12 +52,12 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3"
+      "relatedSpdxElement": "SPDXRef-package-b12c05a6-b41e-4bb0-9298-2610b604eb5e"
     },
     {
-      "spdxElementId": "SPDXRef-package-b9ff4151-2c0b-408e-bb1d-f587f473dfa3",
-      "relationshipType": "DYNAMIC_LINK",
-      "relatedSpdxElement": "SPDXRef-package-2ed22622-1d69-4c33-8abd-15b069521b1b"
+      "spdxElementId": "SPDXRef-package-b12c05a6-b41e-4bb0-9298-2610b604eb5e",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-package-c900501a-fbf6-4e20-aa24-11477be40521"
     }
   ]
 }
