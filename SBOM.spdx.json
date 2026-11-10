@@ -2,20 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2026-04-16T08:24:41Z",
+    "created": "2026-11-10T02:43:28Z",
     "creators": [
       "Organization: NXP"
     ],
-    "licenseListVersion": "3.26"
+    "licenseListVersion": "3.28"
   },
-  "name": "corejson-v26.06.00",
+  "name": "corejson-v26.12.00",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/58b69187-79b1-432a-a6c4-992bd8b95d6b",
+  "documentNamespace": "https://nxp.com/spdx/8e955f7a-26e8-4bf3-9bf8-3e129a522fb7",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-58b69187-79b1-432a-a6c4-992bd8b95d6b",
+      "SPDXID": "SPDXRef-package-8e955f7a-26e8-4bf3-9bf8-3e129a522fb7",
       "name": "corejson",
-      "versionInfo": "v26.06.00",
+      "versionInfo": "v26.12.00",
       "licenseConcluded": "(BSD-3-Clause)",
       "licenseDeclared": "(BSD-3-Clause)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/corejson",
@@ -29,7 +29,7 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-58b69187-79b1-432a-a6c4-992bd8b95d6b"
+      "relatedSpdxElement": "SPDXRef-package-8e955f7a-26e8-4bf3-9bf8-3e129a522fb7"
     }
   ]
 }
